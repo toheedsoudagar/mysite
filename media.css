@@ -1,0 +1,128 @@
+/****************************Media query for main and navbar*************************/
+
+@media only screen and (max-width:1422px) {
+
+    .back{
+        width:auto;
+    }
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+        width: 100%;
+           
+    }
+
+    .leftnav {
+      
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 60%;
+        justify-content: center;
+        margin: auto;
+    }
+    .rightnav {
+        margin-top: 5%;
+        
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 60%;
+        margin-bottom: 3%;
+        font-size: 40px;
+        color: black;
+    }
+
+    .burger {
+        display:block;
+    }
+
+    .hnav{
+        height: 55px;
+        
+    }
+
+    .vclass{
+        opacity: 0;
+    }
+    .secsection{
+        flex-direction: column;
+        height: 650px;
+       }
+    
+       .secsection h1 h2 p{
+        justify-content: center;
+        align-items: center;
+        margin-top:0;
+       }
+    
+       .secsection .info{
+        padding: 92px 102px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       }
+    
+       .secsection .section-title{
+        margin: auto;
+        text-align: center;
+       }
+    
+      
+
+       
+       
+    
+
+
+}
+
+/******************Media query for services section*******************/
+@media (max-width: 900px){
+    section h1{
+      font-size: 2rem;
+      text-align: center;
+    }
+    section .text-container{
+      flex-direction: column;
+    }
+  }
+
+  @media (max-width: 840px) {
+    .card {
+      width: 80%;
+      
+    }
+
+    .card-container{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+
+  }
+
+
+  @media (max-width: 991px) {
+    section {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    
+    .row {
+      flex-direction: column;
+    }
+    
+    .contact-info {
+      margin-bottom: 40px;
+      width: 100%;
+    }
+    
+    
+  }
+  
+ 
